@@ -19,7 +19,7 @@ public class Calc {
                 break;
 
             default:
-                System.out.println("Error");
+                System.out.println("Its not ooprers");
         }
         return res;
     }
@@ -48,21 +48,20 @@ public class Calc {
                     int result = mineMethod(v, lastInp[1], v1);
                     System.out.println(rome_numbs[result]);
 
-                } else if (lastInp.length == 3) {
-                    System.out.println("ERROR!!!");
+                } /*else if (lastInp.length != 3) {
+                    System.out.println("so mach ops!!!");
 
-                }
+                }*/
             }
             else {
-                    System.out.println("ERROR!!!");
+                    System.out.println("это не знак вычисления");
                 }
 
             }
         else {
-            System.out.println("ERROR!!!");
+            System.out.println("слишком много операндов");
         }
         newInput.close();
         }
     }
-
 
